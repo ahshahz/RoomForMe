@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Try Again Later</title>
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+    integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+  <link rel="stylesheet" href="\styles.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
+
+
+  <script src="https://www.gstatic.com/firebasejs/7.15.5/firebase-app.js"
+    src="https://www.gstatic.com/firebasejs/7.15.5/firebase-analytics.js"
+    src="https://www.gstatic.com/firebasejs/7.15.5/firebase-auth.js"
+    src="https://www.gstatic.com/firebasejs/7.15.5/firebase-database.js"
+    src="https://code.jquery.com/jquery-2.2.0.min.js" src="/flask-fire/server/src/js/main.js">
+
+
+    </script>
+
+</head>
+
+<body>
+  
+  <!--Navbar Source: https://getbootstrap.com/docs/4.0/components/navbar/#external-content-->
+  <div class="indy">
+    <div class="pos-f-t">
+      <nav class="navbar navbar-light">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggleExternalContent"
+          aria-controls="navbarToggleExternalContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </nav>
+      <div class="collapse" id="navbarToggleExternalContent">
+        <div class="px-3">
+          <!--ml4-->
+          <div class="navbar-container">
+            <a href="/?action={{actionvar}}">Home</a> <br />
+            <a href="/rewards?action={{actionvar}}">Tap for Rewards</a> <br />
+            <a href="areadashboard.html?action={{actionvar}}">View Common Areas</a> <br />
+            <a href="checkout.html?action={{actionvar}}">Checkout</a> <br />
+          </div>
+        </div>
+      </div>
+    </div>
+    <br>
+    <div class="row" style="justify-content: center;">
+      <a href="/?action={{actionvar}}"><img src="\room-for-me-logo.jpg" /></a> </div>
+  </div>
+
+  <br>
+
+
+  <div class="container-fluid" style="text-align: center; color: white;">
+    <h1 style="font-size: 70px;">SORRY, NO PRIZE THIS TIME.</h1>
+    <h1>TRY AGAIN IN 5 MINUTES FOR ANOTHER CHANCE TO WIN!</h1>
+  </div>
+
+
+  <div class="row">
+    <div class="mx-auto">
+      <a href="/rewards?action={{actionvar}}" class="btn btn-secondary" role="button">
+        <h2>TAP FOR REWARDS</h2>
+      </a>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="mx-auto">
+      <!-- ref: https://www.w3docs.com/snippets/html/how-to-create-an-html-button-that-acts-like-a-link.html -->
+      <a href="areadashboard.html?action={{actionvar}}" class="btn btn-secondary" role="button">
+        <h2>VIEW AVAILABILITY IN COMMON AREAS</h2>
+      </a>
+    </div>
+  </div>
+
+
+
+
+</body>
+
+</html>

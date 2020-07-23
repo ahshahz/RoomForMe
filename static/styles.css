@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css?family=Lobster&display=swap');
+/*body { font-family: '', cursive; margin: 0; padding: 0; }
+.full-screen { width: 100vw; min-height: 100vh; }
+.flex-center { display: flex; flex-direction: column; justify-content: center; align-items: center; }
+.text-xl { font-size: 4rem; }*/
+/* reference: for background image https://www.w3schools.com/html/html_images_background.asp */
+body{
+    background-image: url('background.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar-container {
+    display: inline-block;
+    margin: 0px;
+    padding: 10px;
+    border-radius: 12px;
+    background-color: white;
+}
+
+.container-fluid-dashboard {
+    width: 100%;
+    background-color: #185AED;
+    margin-top: 16px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: white;
+}
+
+.row {
+    justify-content: center;
+}
+
+.indy {
+    background-image: url("indydowntown3xCropUpper.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-bottom: 30px;
+}
+
+
+.logo-header {
+    background-image: url("room-for-me-logo.jpg");
+    /*background: rgba(255, 255, 255, 0.85);*/
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 20px;
+    padding: 5px;
+    color: #185AED;
+}
+
+.btn-secondary {
+    background-color: #185AED;
+}
+
+.mx-auto {
+    margin-top: 15px;
+}
+
+.welcome-image {
+    background-image: url("phoneandcoffee.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #185AED;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+
+.congrats-image {
+    background-image: url("congrats.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #185AED;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.coffee-image {
+    background-image: url("coffee.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    color: #185AED;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    
+}
+.thank-you {
+    background-color: white;
+    display: inline-block;
+    padding: 8px;
+}
+.voucher {
+    background-color: green;
+    display: inline-block;
+    padding: 8px;
+}
