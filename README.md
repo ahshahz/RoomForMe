@@ -1,6 +1,6 @@
 # RoomForMe
 ## Concept
-RoomForMe is a web application hosted on Google Firebase designed to provide a solution for hotels and similar services to make their own customers feel safer while inside the hotel. RoomForMe uses a QR code scanning system to track users in each hotel common area so other visitors can see how crowded a specific area is. This helps visitors feel safer and more comfortable.
+RoomForMe is a web application hosted on Google Firebase designed to provide a solution for hotels and similar services to make their own customers feel safer while inside the hotel. RoomForMe uses a QR code scanning system to track users in each hotel common area so other visitors can see how crowded a specific area is. This helps visitors feel safer and more comfortable. While also providing hotels data on how occupied the rooms are. Future iterations may include object detection from camera feed, and additional customization options to fit the needs of hotels. 
 ## Hosting 
 RoomForMe's application is hosted on Google Firebase and the Google Cloud Platform using Firebase hosting and Cloud Run.
 ## Build
