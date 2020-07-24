@@ -11,8 +11,8 @@ https://finalproject-44754.web.app/
 ## Room link https://finalproject-44754.web.app/areadashboard.html
 ##How to use:
 1.Clone GitHub repository
-2. CD into the directory with app.py type the following command:
+2.CD into the directory with app.py type the following command:
 python app.py. 
-3. This should run locally on localhost:8080
-4. Please note some images may not display correctly due to filepath. 
-5. Enjoy! 
+3.This should run locally on localhost:8080
+4.Please note some images may not display correctly due to filepath. 
+5.Enjoy! 
