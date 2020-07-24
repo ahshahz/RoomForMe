@@ -9,10 +9,14 @@ RoomForMe is built as a Flask framework app combining Python into HTML, CSS, and
 ## Website Link:
 https://finalproject-44754.web.app/
 ## Room link https://finalproject-44754.web.app/areadashboard.html
-##How to use:
-1.Clone GitHub repository
-2.CD into the directory with app.py type the following command:
-python app.py. 
-3.This should run locally on localhost:8080
-4.Please note some images may not display correctly due to filepath. 
-5.Enjoy! 
+## How to Use Locally:
+1.Clone GitHub repository\
+2.Make sure to have the Flask framework installed on your local decice.
+3.CD into the directory with app.py type the following command:
+python app.py. \
+4.This should run locally on localhost:8080\
+5.Please note some images may not display correctly due to filepath. \
+6.Enjoy! 
+## How to deploy on Firebase:
+1. Use the below tutorial below to deploy on Firebase\
+https://medium.com/firebase-developers/hosting-flask-servers-on-firebase-from-scratch-c97cfb204579
