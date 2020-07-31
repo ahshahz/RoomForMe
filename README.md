@@ -6,9 +6,6 @@ RoomForMe is a web application hosted on Google Firebase designed to provide a s
 RoomForMe's application is hosted on Google Firebase and the Google Cloud Platform using Firebase hosting and Cloud Run.
 ## Build
 RoomForMe is built as a Flask framework app combining Python into HTML, CSS, and JavaScript. The web app is built for mobile devices. The mobile frontend framework, Bootstrap was used to help develop this app for mobile as well as all other devices.
-## Website Link:
-https://finalproject-44754.web.app/
-## Room link https://finalproject-44754.web.app/areadashboard.html
 ## How to Use Locally:
 1.Clone GitHub repository\
 2.Make sure to have the Flask framework installed on your local decice.
